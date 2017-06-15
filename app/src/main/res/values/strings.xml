@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UIDesign</string>
+    <string name="Exit">Exit</string>
+    <string name="Register">Register</string>
+    <string name="M">M</string>
+    <string name="F">F</string>
+    <string name="Gender">Gender</string>
+    <string name="email">email</string>
+    <string name="name">name</string>
+</resources>

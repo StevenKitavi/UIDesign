@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.steven.uidesign.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+    <RelativeLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        >
+    <TextView android:layout_width="match_parent"
+        android:id="@+id/Sign"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" android:gravity="center"
+        android:layout_gravity="center" android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </EditText>
+    <TextView android:layout_width="match_parent"
+        android:id="@+id/Sign"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" android:gravity="center"
+        android:layout_gravity="center" android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </EditText>
+    <TextView android:layout_width="match_parent"
+        android:id="@+id/Sign"
+        android:layout_height="wrap_content"
+        android:text="@string/Gender"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" android:gravity="center"
+        android:layout_gravity="center" android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+    <CheckBox android:id="@+id/checkbox_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/F"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/M"
+        android:onClick="onCheckboxClicked"/>
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Register" />
+
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Exit" />
+
+
+
+</android.support.constraint.ConstraintLayout>
